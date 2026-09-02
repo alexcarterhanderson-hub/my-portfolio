@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import { supabase } from '@/integrations/supabase/client';
 
-export const ROBLOX_REDIRECT_URI = 'https://edwardthedev.lovable.app/';
+export const ROBLOX_REDIRECT_URI = 'https://portfolio.edward-dev.workers.dev/';
 
 export interface RobloxStats {
   userId: number;
